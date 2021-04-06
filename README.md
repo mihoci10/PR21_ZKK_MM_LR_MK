@@ -5,6 +5,11 @@
 ### Prometne nesreče
 Podatke o prometnih nesrečah smo pridobili iz spletne strani policija.si, kjer so objavljeni podatki o vseh prometnih nesrečah od leta 1995 do leta 2020. Za vsako nesrečo imamo podatke o vozilu, poškodbah, cestišču, itd. Pri nekaterih nesrečah niso znani vsi podatki, zato je bilo potrebno pri določenih izračunih upoštevati le tiste podatke, ki so bili korektni.
 
+
+### Registrirana vozila v Sloveniji
+Vse podatke o registriranih vozilih smo pridobili na podatki.gov.si, kjer so vidni vsi podatki o trenutno registriranih vozilah v Sloveniji do vključno leta 2020.  
+V datoteki imamo vidne podatke o lastniku vozila in vozilu.
+
 ## Vizualizacija
 
 ### Prometne nesreče
@@ -25,6 +30,10 @@ Po teh izračunih smo naredili še graf, ki prikazuje vzrok nesreče glede na sp
 ![](vzrokNesrečeGledeNaSpol.png "Vožnja pod vplivom alkohola")
 
 ![](tipNesrečeGledeNaStanjePrometa.png "Vožnja pod vplivom alkohola")
+
+### Registrirana vozila v Sloveniji
+
+
 
 ## Trenutni rezultati
 
@@ -84,3 +93,8 @@ Kakšen je bil delež voznikov pod vplivom alkohola pred desetimi leti v primerj
 Kakšen je bil delež uporabe varnostnih pasov pred desetimi leti?
 So se s povečanjem prometa skozi leta bistveno spremenili vzroki za nesrečo?
 Kakšni pogoji in stanje voznika so najbolj varni za udeležbo v prometu?
+
+### Registrirana vozila v Sloveniji
+Katere so 10 najbolje prodajnih znamk avtomobilov v Sloveniji glede na spol?
+Povprečna starost voznikov po znamkah?
+Kakšen delež je v lasti fizičnih oseb in pravnih oseb?
