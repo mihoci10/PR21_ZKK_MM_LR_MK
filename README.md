@@ -102,3 +102,8 @@ Kakšni pogoji in stanje voznika so najbolj varni za udeležbo v prometu?
 Katere so 10 najbolje prodajnih znamk avtomobilov v Sloveniji glede na spol?
 Povprečna starost voznikov po znamkah?
 Kakšen delež je v lasti fizičnih oseb in pravnih oseb?
+
+### Tehnični pregledi
+Kateri tipi vozil imajo največ problemov na tehničnih pregledih, kakšen tip napake je najpogostejši za določen tip vozila.
+Ali se je zanesljivost različnih znamk avtomobilov z leti spremenila. 
+Ali verjetnost, da avto uspešno opravi tehnični pregled zavisi od tipa motorja in starosti vozila.
