@@ -33,9 +33,9 @@ Po teh izračunih smo naredili še graf, ki prikazuje vzrok nesreče glede na sp
 
 ### Registrirana vozila v Sloveniji
 V podatkih smo razbrali koliko vozil je v sloveniji registriranih, ocenili smo njihov delež in zaradi prevelikega števila znamk smo se omejili le na 10 najpogostejših. Seveda se pri voznem parku razlikuje ali je lastnik moški ali ženska.  
-Deset najbolj popularnih znamk pri moških.
 
-![](last_moski.png "last moški")![](last_zenske.png "Last ženske")
+
+![](last_moski.png "last moški")    ![](last_zenske.png "Last ženske")
 
 
 
@@ -102,8 +102,3 @@ Kakšni pogoji in stanje voznika so najbolj varni za udeležbo v prometu?
 Katere so 10 najbolje prodajnih znamk avtomobilov v Sloveniji glede na spol?
 Povprečna starost voznikov po znamkah?
 Kakšen delež je v lasti fizičnih oseb in pravnih oseb?
-
-### Tehnični pregledi
-Kateri tipi vozil imajo največ problemov na tehničnih pregledih, kakšen tip napake je najpogostejši za določen tip vozila.
-Ali se je zanesljivost različnih znamk avtomobilov z leti spremenila. 
-Ali verjetnost, da avto uspešno opravi tehnični pregled zavisi od tipa motorja in starosti vozila.
