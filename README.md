@@ -47,9 +47,7 @@ Kot zadnje nas je pa zanimala povprečna starost lastnikov najpopularnejših zna
 
 ![](povprecna_starost_glede_na_znamko.png "last oseb")
 
-<<<<<<< HEAD
-![](povprecna_starost_glede_na_znamko.png "last oseb")
-=======
+
 ### Tehnični pregledi
 
 Najprej smo si hoteli pogledati, kateri tip vozila najpogosteje ne pride čez tehnični pregled. Vidimo, da je osebnih avtomobilov največ.
