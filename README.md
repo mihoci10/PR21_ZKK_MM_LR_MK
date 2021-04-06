@@ -32,6 +32,10 @@ Po teh izračunih smo naredili še graf, ki prikazuje vzrok nesreče glede na sp
 ![](tipNesrečeGledeNaStanjePrometa.png "Vožnja pod vplivom alkohola")
 
 ### Registrirana vozila v Sloveniji
+V podatkih smo razbrali koliko vozil je v sloveniji registriranih, ocenili smo njihov delež in zaradi prevelikega števila znamk smo se omejili le na 10 najpogostejših. Seveda se pri voznem parku razlikuje ali je lastnik moški ali ženska.  
+Deset najbolj popularnih znamk pri moških.
+
+![](last_moski.png "last moški")![](last_zenske.png "Last ženske")
 
 
 
