@@ -10,6 +10,9 @@ Podatke o prometnih nesrečah smo pridobili iz spletne strani policija.si, kjer 
 Vse podatke o registriranih vozilih smo pridobili na podatki.gov.si, kjer so vidni vsi podatki o trenutno registriranih vozilah v Sloveniji do vključno leta 2020.  
 V datoteki imamo vidne podatke o lastniku vozila in vozilu.
 
+### Napake na tehničnih pregledih
+Tabelo s podatki smo dobili s spletne strani https://podatki.gov.si. V tabeli so zapisani podatki o neuspešnih tehničnih pregledih.
+
 ## Vizualizacija
 
 ### Prometne nesreče
@@ -36,6 +39,26 @@ V podatkih smo razbrali koliko vozil je v sloveniji registriranih, ocenili smo n
 
 
 ![](last_moski.png "last moški")    ![](last_zenske.png "Last ženske")
+
+
+### Tehnični pregledi
+
+Najprej smo si hoteli pogledati, kateri tip vozila najpogosteje ne pride čez tehnični pregled. Vidimo, da je osebnih avtomobilov največ.
+
+![](slike_technicni/delezGledeNaTip.png "Delež vozil glede na tip")
+
+<br />
+Nato smo si hoteli pogledati, kakšen je delež napak posameznega tipa.
+
+![](slike_technicni/stNapakGledeNaTip.png "Število napak glede na tip")
+<br />
+Vidimo, da ima velika večina vozil težave z svetlobno in električno opremo.
+<br /><br />
+Hoteli smo preveriti, če so določeni tipi napak pogostejši glede na tip vozila. 
+
+![](slike_technicni/napakeGledeNaTip.png "delež vrst napak za posamezen tip vozila")
+
+Opazimo, da velika večina vozil ne opravi tehničnega pregleda zaradi svetlobne in električne opreme. Pri tovornih vozilih, traktorjih in vlečnih vozilih je dokaj pogosta napaka druga oprema(oprema manjka ali pa ni v skladu z zahtevami).
 
 
 
@@ -89,28 +112,8 @@ Možnost preživetja če imamo pripet varnostni pas v prometni nesreči: 0.99480
 Možnost preživetja če nimamo pripetega varnostnega pasu v prometni nesreči: 0.9857303792714983  
 
 ---
-<br /><br /><br />
-# Napake na tehničnih pregledih
-Tabelo s podatki smo dobili s spletne strani https://podatki.gov.si. V tabeli so zapisani podatki o znamki vozila, razlogu za napako...
 
-## Vizualizacije
 
-Najprej smo si hoteli pogledati, kateri tip vozila najpogosteje ne pride čez tehnični pregled. Vidimo, da je osebnih avtomobilov največ.
-
-![](slike_technicni/delezGledeNaTip.png "Delež vozil glede na tip")
-
-<br />
-Nato smo si hoteli pogledati, kakšen je delež napak posameznega tipa.
-
-![](slike_technicni/stNapakGledeNaTip.png "Število napak glede na tip")
-<br />
-Vidimo, da ima velika večina vozil težave z svetlobno in električno opremo.
-<br /><br />
-Hoteli smo preveriti, če so določeni tipi napak pogostejši glede na tip vozila. 
-
-![](slike_technicni/napakeGledeNaTip.png "delež vrst napak za posamezen tip vozila")
-
-Opazimo, da velika večina vozil ne opravi tehničnega pregleda zaradi svetlobne in električne opreme. Pri tovornih vozilih, traktorjih in vlečnih vozilih je dokaj pogosta napaka druga oprema(oprema manjka ali pa ni v skladu z zahtevami).
 
 
 
