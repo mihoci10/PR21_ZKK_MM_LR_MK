@@ -13,6 +13,9 @@ V datoteki imamo vidne podatke o lastniku vozila in vozilu.
 ### Napake na tehničnih pregledih
 Tabelo s podatki smo dobili s spletne strani https://podatki.gov.si. V tabeli so zapisani podatki o neuspešnih tehničnih pregledih.
 
+### Javni promet
+Podatke o javnem prometu so pridobljeni iz spletne strani https://pxweb.stat.si/SiStatData.
+
 ## Vizualizacija
 
 ### Prometne nesreče
@@ -67,6 +70,12 @@ Hoteli smo preveriti, če so določeni tipi napak pogostejši glede na tip vozil
 
 Opazimo, da velika večina vozil ne opravi tehničnega pregleda zaradi svetlobne in električne opreme. Pri tovornih vozilih, traktorjih in vlečnih vozilih je dokaj pogosta napaka druga oprema(oprema manjka ali pa ni v skladu z zahtevami).
 
+### Javni promet
+
+Preučili smo kako je porazdeljena uporaba javnega prevoza po Sloveniji v zadnjih 10ih letih.
+
+
+![](JavniPromet.png "Delež nesreč")
 
 >>>>>>> 9ff22686e4eaf221e9396f1c2781eb66d06d43c0
 
@@ -138,7 +147,11 @@ Katere so 10 najbolje prodajnih znamk avtomobilov v Sloveniji glede na spol?
 Povprečna starost voznikov po znamkah?
 Kakšen delež je v lasti fizičnih oseb in pravnih oseb?
 
-## Tehnični pregledi
+### Tehnični pregledi
 Kateri tipi vozil imajo največ problemov na tehničnih pregledih, kakšen tip napake je najpogostejši za določen tip vozila.
 Ali se je zanesljivost različnih znamk avtomobilov z leti spremenila. 
 Ali verjetnost, da avto uspešno opravi tehnični pregled zavisi od tipa motorja in starosti vozila.
+
+### Javni promet
+Kako se je razvijala uporaba javnega prometa skozi čas?
+Ali lahk predvidimo povečano povpraševanje po avtobusih/vlakih?
