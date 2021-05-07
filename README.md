@@ -70,6 +70,24 @@ Hoteli smo preveriti, če so določeni tipi napak pogostejši glede na tip vozil
 
 Opazimo, da velika večina vozil ne opravi tehničnega pregleda zaradi svetlobne in električne opreme. Pri tovornih vozilih, traktorjih in vlečnih vozilih je dokaj pogosta napaka druga oprema(oprema manjka ali pa ni v skladu z zahtevami).
 
+Zanimalo nas je, če lahko določimo zanesljivost posamezne znamke avtomobila glede na odstotek uspešno opravljenega tehničnega pregleda
+
+![](slike_technicni/odstotekUspesnosti.png "Odstotek uspešnosti tehničnega pregleda")
+
+Glede na dobljene rezultate ne moremo določiti zanesljivosti posamezne znamke na podlagi odstotka uspešnosti opravljenega tehničnega pregleda.
+<br />
+Poiskusimo določiti zanesljivost na podlagi prevoženih kilometrov. Zanesljivejše znamke, bi morale v povprečuju imeti več prevoženih kilometrov
+
+![](slike_technicni/avgKilometriPoZnamki.png "Povprečno število prevoženih kilometrov glede na znamko")
+
+Tudi tako ne moremo določiti zanesljivosti avtomobilov, lahko pa vidimo, katere znamke avtomobilov zdržijo dlje. Opazimo tudi, da so rezulati zelo podobni pri avtomobilih iz iste družine proizvajalcev (Hyundai in Kia, Peugeot in Citroen...)
+
+Od lokalnega mehanika sem slišal trditev, da kilometrina ni dober pokazatelj življenjske dobe avtomobila, saj se nekatere znamke avtomobilov (še posebej nemške) večinoma uporabljajo za opravljanje daljših relacij po avtocesti. Zaradi tega imajo posledično več prevoženih kilometrov, avtomobil na avtocesti pa ni izpostavljen večjim obremenitvam.
+
+![](slike_technicni/avgKilometri10Let.png "Povprečno število prevoženih kilometrov 10 let starega avtomobila glede na znamko")
+
+Opazimo, da imajo v večini znamke nemških proizvajalcev več prevoženih kilometrov kot ostale znamke.
+
 ### Javni promet
 
 Preučili smo kako je porazdeljena uporaba javnega prevoza po Sloveniji v zadnjih 10ih letih.
@@ -149,8 +167,7 @@ Kakšen delež je v lasti fizičnih oseb in pravnih oseb?
 
 ### Tehnični pregledi
 Kateri tipi vozil imajo največ problemov na tehničnih pregledih, kakšen tip napake je najpogostejši za določen tip vozila.
-Ali se je zanesljivost različnih znamk avtomobilov z leti spremenila. 
-Ali verjetnost, da avto uspešno opravi tehnični pregled zavisi od tipa motorja in starosti vozila.
+Ali lahko določimo zanesljivost posamezne znamke avtomobila iz podatkov od tehničnih pregledov. 
 
 ### Javni promet
 Kako se je razvijala uporaba javnega prometa skozi čas?
