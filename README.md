@@ -79,6 +79,7 @@ Opazimo, da velika večina vozil ne opravi tehničnega pregleda zaradi svetlobne
 
 <br /><br />
 Poglejmo si še povprečno število prevoženih kilometrov glede na tip goriva.
+<br /><br />
 ![](slike_technicni/stPrevozenihNaGorivo.png "Povprečno število prevoženih kilometrov glede na tip goriva")
 
 Opazimo, da Avtomobili na dizel ter LPG naradijo več kilometrov kot avtomobili z bencinskim motorjem.
