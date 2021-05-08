@@ -19,17 +19,24 @@ Podatke o javnem prometu so pridobljeni iz spletne strani https://pxweb.stat.si/
 ## Vizualizacija
 
 ### Prometne nesreče
-Najprej nas je zanimalo koliko je vseh tipov nesreč in kakšen je njihov delež. Ugotovili smo, da je najbolj pogost tip nesreče bočno trčenje, čeprav smo predvidevali, da bo najbolj pogost tip nesreče oplaženje.
+Najprej nas je zanimalo koliko je vseh tipov nesreč in kakšen je njihov delež. Ugotovili smo, da je najbolj pogost tip nesreče bočno trčenje, čeprav smo predvidevali, da bo najbolj pogost tip nesreče oplaženje. Uporabili smo še podatke iz leta 2010 in ugotovili, da ni bistvene razlike pri porazdelitvi.
 
-![](delezNesrec.png "Delež nesreč")
+Delež nesreč 2020            |  Delež nesreč 2010
+:-------------------------:|:-------------------------:
+<img src="delezNesrec.png" alt="Delež nesreč 2020" width=1000/>  |  <img src="delezNesrec2010.png" alt="Delež nesreč 2010" width=1000/>
 
-Nadaljevali smo z deležem uporabe varnostnega pasu pri različnih tipih nesreč. Pri predvidevanju smo se zopet zmotili, saj smo mislili, da bo največji delež neuporabe varnostnega pasu pri trčenju v stoječe/parkirano vozilo. Po izračunih smo ugotovili, da je največ nepripetih pasov pri povoženju pešca in to več kot 25%, najmanj pa pri naletnem trčenju, manj kot 2%.
+Nadaljevali smo z deležem uporabe varnostnega pasu pri različnih tipih nesreč. Pri predvidevanju smo se zopet zmotili, saj smo mislili, da bo največji delež neuporabe varnostnega pasu pri trčenju v stoječe/parkirano vozilo. Po izračunih smo ugotovili, da je največ nepripetih pasov pri povoženju pešca in to več kot 25%, najmanj pa pri naletnem trčenju, manj kot 2%. Zelo podobne rezultate smo dobili tudi pri podatkih iz leta 2010. Ponovno je največ nepripetih pasov pri povoženju pešca, najmanj pa pri naletnem trčenju.
 
-![](neuporabaPasu.png "Neuporaba pasu")
+||  Delež nesreč
+|:-------------------------:|:-------------------------:
+|Delež Nesreč 2020|![](neuporabaPasu.png "Neuporaba pasu (2020)")
+|Delež Nesreč 2010|![](neuporabaPasu2010.png "Neuporaba pasu (2010)")
 
-Zanimalo nas je tudi kakšen je delež moških in žensk, ki so bili pri prometni nesreči pod vplivom alkohola. Ugotovili smo, da je delež moških pod vplivom alkohola približno 3-krat večji kot delež žensk pod vplivom alkohola.
+Zanimalo nas je tudi kakšen je delež moških in žensk, ki so bili pri prometni nesreči pod vplivom alkohola. Ugotovili smo, da je delež moških pod vplivom alkohola približno 3-krat večji kot delež žensk pod vplivom alkohola. Pri podatkih iz leta 2010 nas je presentilo, da se je delež voznikov pod vplivom alkohola do leta 2020 povečal za kar 10 odstotkov.
 
-![](podVplivomAlkohola.png "Vožnja pod vplivom alkohola")
+Delež voznikov pod vplivom alkohola 2020 | Delež voznikov pod vplivom alkohola 2010
+:-------------------------:|:-------------------------:
+![](podVplivomAlkohola.png "Vožnja pod vplivom alkohola (2020)")  |  ![](podVplivomAlkohola2010.png "Vožnja pod vplivom alkohola (2010)")
 
 Po teh izračunih smo naredili še graf, ki prikazuje vzrok nesreče glede na spol in graf, ki prikazuje tipe nesreč glede na stanje prometa.
 
@@ -100,7 +107,7 @@ Preučili smo kako je porazdeljena uporaba javnega prevoza po Sloveniji v zadnji
 ## Trenutni rezultati
 
 ### Prometne nesreče
-Tipi nesreč in njihov delež: 
+Tipi nesreč in njihov delež (2020): 
 
 OPLAŽENJE: 0.13770479223420173  
 POVOŽENJE PEŠCA: 0.02586041514791083  
@@ -111,11 +118,26 @@ TRČENJE V OBJEKT: 0.09185435291409277
 BOČNO TRČENJE: 0.203660361431915  
 NALETNO TRČENJE: 0.1327936154702068  
 OSTALO: 0.09661205540421287  
-POVOŽENJE ŽIVALI: 0.012047730499175076  
+POVOŽENJE ŽIVALI: 0.012047730499175076
+
+################################################
+
+Tipi nesreč in njihov delež (2010): 
+
+OPLAŽENJE: 0.12540067043480388  
+POVOŽENJE PEŠCA: 0.02640142895593237  
+ČELNO TRČENJE: 0.11546649049401747
+TRČENJE V STOJEČE / PARKIRANO VOZILO: 0.1445349776113925
+PREVRNITEV VOZILA: 0.03694731948420563    
+TRČENJE V OBJEKT: 0.0789351342093029    
+BOČNO TRČENJE: 0.23717242898040078  
+NALETNO TRČENJE: 0.1664097482199222  
+OSTALO: 0.06444982749761433  
+POVOŽENJE ŽIVALI: 0.004281974112407937  
 
 ---
 
-Delež neuporabe varnostnega pasu pri različnih tipih nesreč:
+Delež neuporabe varnostnega pasu pri različnih tipih nesreč (2020):
 
 OPLAŽENJE: 0.07773753134577877  
 POVOŽENJE PEŠCA: 0.27002967359050445  
@@ -128,26 +150,58 @@ NALETNO TRČENJE: 0.016180294712510836
 OSTALO: 0.12708498808578236  
 POVOŽENJE ŽIVALI: 0.12738853503184713  
 
----
+#############################################
 
-Delež voznikov pod vplivom alkohola: 0.06570014958002532  
-Delež žensk, ki so vozile pod vplivom alkohola: 0.026043613707165108  
-Delež moških, ki so vozili pod vplivom alkohola: 0.08333333333333333  
+Delež neuporabe varnostnega pasu pri različnih tipih nesreč (2010):
 
----
-
-Delež nesreč z materialno škodo: 0.6526291565987804  
-Delež nesreč z lažjo telesno poškodbo: 0.2992367583323745  
-Delež nesreč s hudo telesno poškodbo: 0.04222759176159245  
-Delež nesreč s smrtnim izidom: 0.005906493307252713  
-
----
-
-Možnost preživetja če imamo pripet varnostni pas v prometni nesreči: 0.9948077394072986  
-Možnost preživetja če nimamo pripetega varnostnega pasu v prometni nesreči: 0.9857303792714983  
+ČELNO TRČENJE: 0.057003602458147916  
+BOČNO TRČENJE: 0.04054472299597648  
+TRČENJE V STOJEČE / PARKIRANO VOZILO: 0.08447604536990012  
+NALETNO TRČENJE: 0.010439641229230995  
+OSTALO: 0.09832953682611997  
+PREVRNITEV VOZILA: 0.1337748344370861  
+TRČENJE V OBJEKT: 0.10012399256044638  
+POVOŽENJE ŽIVALI: 0.16  
+OPLAŽENJE: 0.05248780487804878  
+POVOŽENJE PEŠCA: 0.267840593141798  
 
 ---
 
+Delež voznikov pod vplivom alkohola (2020): 0.06570014958002532  
+Delež žensk, ki so vozile pod vplivom alkohola (2020): 0.026043613707165108  
+Delež moških, ki so vozili pod vplivom alkohola (2020): 0.08333333333333333 
+
+#############################################
+
+Delež voznikov pod vplivom alkohola (2010): 0.060006360233860905  
+Delež žensk, ki so vozile pod vplivom alkohola (2010): 0.01912634735391847  
+Delež moških, ki so vozili pod vplivom alkohola (2010): 0.07406362418000988  
+
+---
+
+Delež nesreč z materialno škodo (2020): 0.6526291565987804  
+Delež nesreč z lažjo telesno poškodbo (2020): 0.2992367583323745  
+Delež nesreč s hudo telesno poškodbo (2020): 0.04222759176159245  
+Delež nesreč s smrtnim izidom (2020): 0.005906493307252713  
+
+#############################################
+
+Delež nesreč z materialno škodo (2010): 0.5950732650015901  
+Delež nesreč z lažjo telesno poškodbo (2010): 0.3570292815381981  
+Delež nesreč s hudo telesno poškodbo (2010): 0.03960468700310673  
+Delež nesreč s smrtnim izidom (2010): 0.008292766457105116  
+
+---
+
+Možnost preživetja če imamo pripet varnostni pas v prometni nesreči (2020): 0.9948077394072986  
+Možnost preživetja če nimamo pripetega varnostnega pasu v prometni nesreči (2020): 0.9857303792714983  
+
+#############################################
+
+Možnost preživetja če imamo pripet varnostni pas v prometni nesreči (2010): 0.9931024230712056  
+Možnost preživetja če nimamo pripetega varnostnega pasu v prometni nesreči (2010): 0.971944657955419  
+
+---
 
 
 
