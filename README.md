@@ -77,17 +77,28 @@ Hoteli smo preveriti, če so določeni tipi napak pogostejši glede na tip vozil
 
 Opazimo, da velika večina vozil ne opravi tehničnega pregleda zaradi svetlobne in električne opreme. Pri tovornih vozilih, traktorjih in vlečnih vozilih je dokaj pogosta napaka druga oprema(oprema manjka ali pa ni v skladu z zahtevami).
 
-Zanimalo nas je, če lahko določimo zanesljivost posamezne znamke avtomobila glede na odstotek uspešno opravljenega tehničnega pregleda
+<br /><br />
+Poglejmo si še povprečno število prevoženih kilometrov glede na tip goriva.
+![](slike_technicni/stPrevozenihNaGorivo.png "Povprečno število prevoženih kilometrov glede na tip goriva")
+
+Opazimo, da Avtomobili na dizel ter LPG naradijo več kilometrov kot avtomobili z bencinskim motorjem.
+<br /><br />
+Poglejmo si še kateri tip motorja je popularen pri najpogostejših znamkah avtomobilov.
+![](slike_technicni/tipGorivaNaZnamko.png "Popularnost tipa motorja glede na znamko")
+
+Ugotovimo, da tip goriva zelo razlikuje glede na znamko avtomobila. Še posebej izstopajo avtomobili nemških proizvajalcev, kjer močno prevladujejo dizelski motorji.
+
+Zanimalo nas je, če lahko določimo zanesljivost posamezne znamke avtomobila glede na odstotek uspešno opravljenega tehničnega pregleda.
 
 ![](slike_technicni/odstotekUspesnosti.png "Odstotek uspešnosti tehničnega pregleda")
 
 Glede na dobljene rezultate ne moremo določiti zanesljivosti posamezne znamke na podlagi odstotka uspešnosti opravljenega tehničnega pregleda.
-<br />
-Poiskusimo določiti zanesljivost na podlagi prevoženih kilometrov. Zanesljivejše znamke, bi morale v povprečuju imeti več prevoženih kilometrov
+<br /><br />
+Poiskusimo določiti zanesljivost na podlagi prevoženih kilometrov. Zanesljivejše znamke, bi morale v povprečuju imeti več prevoženih kilometrov.
 
 ![](slike_technicni/avgKilometriPoZnamki.png "Povprečno število prevoženih kilometrov glede na znamko")
 
-Tudi tako ne moremo določiti zanesljivosti avtomobilov, lahko pa vidimo, katere znamke avtomobilov zdržijo dlje. Opazimo tudi, da so rezulati zelo podobni pri avtomobilih iz iste družine proizvajalcev (Hyundai in Kia, Peugeot in Citroen...)
+Tudi tako ne moremo določiti zanesljivosti avtomobilov, lahko pa vidimo, katere znamke avtomobilov zdržijo dlje. Opazimo tudi, da so rezulati zelo podobni pri avtomobilih iz iste družine proizvajalcev (Hyundai in Kia, Peugeot in Citroen...).
 
 Od lokalnega mehanika sem slišal trditev, da kilometrina ni dober pokazatelj življenjske dobe avtomobila, saj se nekatere znamke avtomobilov (še posebej nemške) večinoma uporabljajo za opravljanje daljših relacij po avtocesti. Zaradi tega imajo posledično več prevoženih kilometrov, avtomobil na avtocesti pa ni izpostavljen večjim obremenitvam.
 
@@ -221,6 +232,7 @@ Kakšen delež je v lasti fizičnih oseb in pravnih oseb?
 
 ### Tehnični pregledi
 Kateri tipi vozil imajo največ problemov na tehničnih pregledih, kakšen tip napake je najpogostejši za določen tip vozila.
+Kako popularni so dizelski ter bencinski motorji pri posameznih znamkah avtomobila
 Ali lahko določimo zanesljivost posamezne znamke avtomobila iz podatkov od tehničnih pregledov. 
 
 ### Javni promet
