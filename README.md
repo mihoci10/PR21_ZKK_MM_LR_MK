@@ -102,6 +102,8 @@ Poiskusimo določiti zanesljivost na podlagi prevoženih kilometrov. Zanesljivej
 Tudi tako ne moremo določiti zanesljivosti avtomobilov, lahko pa vidimo, katere znamke avtomobilov zdržijo dlje. Opazimo tudi, da so rezulati zelo podobni pri avtomobilih iz iste družine proizvajalcev (Hyundai in Kia, Peugeot in Citroen...).
 
 Od lokalnega mehanika sem slišal trditev, da kilometrina ni dober pokazatelj življenjske dobe avtomobila, saj se nekatere znamke avtomobilov (še posebej nemške) večinoma uporabljajo za opravljanje daljših relacij po avtocesti. Zaradi tega imajo posledično več prevoženih kilometrov, avtomobil na avtocesti pa ni izpostavljen večjim obremenitvam.
+<br /><br />
+Poglejmo si še povprečno število prevoženih kilometrov 10 let starega avtomobila glede na znamko.
 
 ![](slike_technicni/avgKilometri10Let.png "Povprečno število prevoženih kilometrov 10 let starega avtomobila glede na znamko")
 
